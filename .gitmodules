@@ -1,0 +1,4 @@
+[submodule "salt/formulae/postgres-formula"]
+	path = salt/formulae/postgres-formula
+	url = https://github.com/tfolio/postgres-formula.git
+	branch = config-sls

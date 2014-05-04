@@ -5,3 +5,5 @@ base:
     - oath-toolkit
     - python
     - virtualenv
+    - postgres
+    - postgres.config

@@ -12,6 +12,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   ## For masterless, mount your salt file root
   config.vm.synced_folder "salt/roots/", "/srv/salt/"
+  config.vm.synced_folder "salt/formulae/", "/srv/salt-formulae/"
+  config.vm.synced_folder "salt/pillar/", "/srv/pillar/"
 
   ## Forward the web server port
   config.vm.network 'forwarded_port', guest: 80, host: 8080
