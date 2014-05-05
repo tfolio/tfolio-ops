@@ -11,7 +11,7 @@ debian.jessie:
 
 /etc/apt/preferences.d/jessie.pref:
   file.managed:
-    - source: salt://debian/apt_preferences.jessie.conf
+    - source: salt://debian/files/apt_preferences.jessie.conf
     - user: root
     - group: root
     - mode: 644
