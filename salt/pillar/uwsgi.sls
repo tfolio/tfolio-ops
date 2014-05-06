@@ -1,0 +1,3 @@
+uwsgi:
+  plugins:
+    python: true

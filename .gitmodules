@@ -6,3 +6,6 @@
 	path = salt/formulae/nginx-formula
 	url = https://github.com/tfolio/nginx-formula.git
 	branch = tfolio
+[submodule "salt/formulae/uwsgi-formula"]
+	path = salt/formulae/uwsgi-formula
+	url = https://github.com/tfolio/uwsgi-formula.git
